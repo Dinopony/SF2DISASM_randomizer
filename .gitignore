@@ -304,3 +304,5 @@ disasm/code/common/scripting/entity/getallymapsprite-expanded.asm
 disasm/code/gameflow/special/battletest-expanded.asm
 rom/put original us rom here with name sf2.bin (not smd format)
 build/cutscenedata.cpp
+build/cutscene_data.cpp
+build/SF2Rando.exe
