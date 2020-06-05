@@ -26,7 +26,8 @@ abcs_battle05:  textCursor $91C
                 nextText $0,ALLY_SLADE  ; "I have an obligation to find{N}the other jewel!{W2}"
                 nextSingleText $0,ALLY_SLADE ; "Let's go to Granseal!{W1}"
                 clearF $49              ; Slade is a follower
-                setStoryFlag $6         ; Battle 6 unlocked
                 followEntity ALLY_SLADE,ALLY_BOWIE,2
+                setF $1FA                   ; Battle 6 completed (switch to ravaged Granseal)
+                setF $197                   ; Battle 7 unlocked
                 warp $10,$10,$12,$3
                 csc_end

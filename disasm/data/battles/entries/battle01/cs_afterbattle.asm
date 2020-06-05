@@ -24,10 +24,10 @@ abcs_battle01:  textCursor $901
                 setActscript 129,eas_461B6
                 csWait 5
                 setActscript ALLY_BOWIE,eas_461B6
-                csWait 30
-                mapFadeOutToWhite
-                csWait 30
-                mapFadeInFromWhite
+;                csWait 30
+;                mapFadeOutToWhite
+;                csWait 30
+;                mapFadeInFromWhite
                 csWait 30
                 mapFadeOutToWhite
                 animEntityFX 128,6
@@ -71,6 +71,7 @@ abcs_battle01:  textCursor $901
                 setCamDest 2,2
                 setFacing 129,RIGHT
                 nextSingleText $0,129   ; "We must hurry to the King!{W1}"
+                setF $1F7               ; Set Battle 3 as completed
                 entityActionsWait 129
                  moveDown 6
                 endActions
