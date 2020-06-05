@@ -302,3 +302,5 @@ disasm/data/maps/entries/map*/*layoutflags*.txt
 disasm/code/common/menus/getallyportrait-expanded.asm
 disasm/code/common/scripting/entity/getallymapsprite-expanded.asm
 disasm/code/gameflow/special/battletest-expanded.asm
+rom/put original us rom here with name sf2.bin (not smd format)
+build/cutscenedata.cpp
