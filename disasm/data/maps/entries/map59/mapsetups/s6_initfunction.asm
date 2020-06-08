@@ -416,6 +416,8 @@ cs_5EF60:       textCursor $E9B
                 setQuake 0
                 executeSubroutine csub_5F14C
                 csWait 120
+                setF $217       ; Mark battle 35 as completed
+                setF $219       ; Mark battle 37 as completed
                 warp $25,$8,$C,$3
                 csc_end
 

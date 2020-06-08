@@ -160,4 +160,5 @@ cs_5E3C2:       textCursor $AAB
                 followEntity ALLY_PETER,FOLLOWER_B,2
                 setBlocks 0,38,2,3,14,10
                 setF $348               ; Set after the door to the Mitula Shrine is opened
+                setF $1AE               ; Set Battle 30 (Zalbard) as unlocked
                 csc_end

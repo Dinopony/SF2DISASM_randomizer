@@ -75,6 +75,9 @@ cs_58FA4:       textCursor $8D6
                 hide 132
                 hide 133
                 hide 134
+                setF $1F9 ; Set Galam arc flags when leaving Grans for coherence when coming back there
+                setF $297 ; Set Galam arc flags when leaving Grans for coherence when coming back there
+                setF $298 ; Set Galam arc flags when leaving Grans for coherence when coming back there
                 setF $1FC ; Mark battle 8 as completed
                 setF $1FE ; Mark battle 10 as completed
                 setF $200 ; Mark battle 12 as completed
@@ -85,7 +88,7 @@ cs_58FA4:       textCursor $8D6
                 setF $19B ; Mark battle 11 as unlocked
                 setF $2C4 ; Remove Ribble cutscenes (show NPCs)
                 setF $2C5 ; Remove Ribble cutscenes (open doors)
-                setF $2C8 ; Remove Peter cutscene triggering Volcanon mountainous path battle
+                setF $2C9 ; Remove Peter cutscene triggering Volcanon mountainous path battle
                 warp $49,$3E,$31,$2
                 csc_end
 ce_59270:       mainEntity 13,11,DOWN

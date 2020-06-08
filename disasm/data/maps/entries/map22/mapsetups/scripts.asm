@@ -20,6 +20,8 @@ cs_5996E:       textCursor $702
                 setCamDest 20,7
                 nextText $0,134         ; "A Cotton Balloon is inside.{W2}"
                 nextSingleText $0,134   ; "With it you can leave{N}Desktop Kingdom safely.{N}Good luck!{W1}"
+                setF $20B               ; Mark battle 23 as completed
+                setF $30D               ; Remove Willard intro cutscene because battle isn't there anymore
                 csc_end
 cs_599A4:       entityActionsWait 136
                  moveUp 1

@@ -624,4 +624,5 @@ cs_5B466:       textCursor $78C
                 nextSingleText $0,129   ; "Don't think about it now.{N}Go to the north.{W1}"
                 followEntity ALLY_PETER,ALLY_BOWIE,2
                 followEntity 130,ALLY_PETER,2
+                setF $20C               ; Mark battle 24 as completed
                 csc_end

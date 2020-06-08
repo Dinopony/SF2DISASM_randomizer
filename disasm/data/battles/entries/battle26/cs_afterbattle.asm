@@ -95,6 +95,9 @@ abcs_battle26:  textCursor $A4D
                 startEntity ALLY_HIGINS
                 nextSingleText $C0,ALLY_HIGINS ; "Let's go to Pacalon.{W1}"
                 addNewFollower ALLY_HIGINS
+                setF $20F               ; Mark battle 27 as completed
+                setF $214               ; Mark battle 32 as completed
+                setF $1AC               ; Mark battle 28 (pangoat bridge) as unlocked
                 csc_end
 ce_4BE4A:       mainEntity 19,16,UP
                 entity 17,14,DOWN,ALLY_PETER,eas_Init
